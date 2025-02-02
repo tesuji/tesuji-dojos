@@ -1,0 +1,12 @@
+name: Imaginaryctf
+challenges:
+  - id: idle
+    name: Idle (150 pts)
+  - id: igloo
+    name: Igloo (150 pts)
+  - id: saas
+    name: SaaS (100 pts)
+  - id: nontrivial
+    name: nontrivial (75pts)
+  - id: ezvm
+    name: EzVM (150pts)

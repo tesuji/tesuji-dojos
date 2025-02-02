@@ -1,0 +1,8 @@
+#!/bin/bash
+/usr/bin/patchelf \
+	--set-rpath /challenge \
+	--set-interpreter /challenge/ld-linux.so.2 \
+	/challenge/maze6
+
+# setarch cannot disable ASLR for suid binary
+/bin/chmod 555 /challenge/maze6
