@@ -7,3 +7,6 @@ award:
 modules:
   - id: imaginaryctf
   - id: overthewire
+  - id: lactf-2023
+    name: LA ctf 2023
+    description: Hosted from <https://github.com/uclaacm/lactf-archive>.

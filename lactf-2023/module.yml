@@ -1,0 +1,59 @@
+name: lactf-2023
+challenges:
+  - id: bot
+    name: bot
+    description: |
+      I made a bot to automatically answer all of your questions.
+      > author: kaiphait
+      > binary built with `-g -std=c99 -no-pie -fno-stack-protector`
+  # those below are solidity/cryptochain
+  # - id: breakup
+  #   name: breakup
+  #   description: |
+  #     Somebody that I used to know told me yesterday that "Friends are like NFTs."
+  #     I'm no longer friends with them, but the "blockchain" or something still
+  #     thinks they're friends with me! Could you please fix that?
+  #     > author: arcblroth
+  # - id: eth-challenge-base
+  #   name: eth-challenge-base
+  # - id: evmvm
+  #   name: evmvm
+  - id: gatekeep
+    name: gatekeep
+    description: |
+      If I gaslight you enough, you won't be able to get my flag! :)
+      > author: bliutech
+      > binary built with `c99 -fno-stack-protector`.
+  - id: redact
+    name: redact
+    description: |
+      I heard C was insecure so I wrote my flag redactor program in C++.
+      Note: There are multiple optimized implementations of `memmove` and
+      one is selected at runtime based on available CPU features, meaning that
+      any solution that uses the `memmove` GOT entry could fail on remote.
+      The challenge is solvable without `memmove`.
+      > author: kaiphait
+      > binary built with `-no-pie -fno-stack-protector`.
+  - id: rickroll
+    name: rickroll
+    description: |
+      Make your own custom rickroll with my new rickroll program!
+      > author: aplet123
+      > binary built with `-Wall -Wpedantic -Werror -O0 -no-pie`.
+  - id: rut-roh-relro
+    name: rut-roh-relro
+    description: |
+      My friend keeps writing super insecure C programs but I'm too lazy
+      to fix his code. I'm sure it'll be fine as long as I use enough
+      exploit mitigations, right?
+      > author: aplet123
+      > binary built with `-Wall -Wpedantic -Werror -O0 -Wl,-z,relro,-z,now`.
+  # rust project
+  # - id: sailor
+  #   name: sailor
+  - id: stuff
+    name: stuff
+    description: |
+      Jason keeps bullying me for using Fedora so here's a binary compiled
+      on Fedora.
+      > author: kaiphait
