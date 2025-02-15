@@ -10,3 +10,6 @@ modules:
   - id: lactf-2023
     name: LA ctf 2023
     description: Hosted from <https://github.com/uclaacm/lactf-archive>.
+  - id: lactf-2024
+    name: LA ctf 2024
+    description: Hosted from <https://github.com/uclaacm/lactf-archive>.

@@ -1,0 +1,61 @@
+name: lactf-2024
+challenges:
+  - id: 52-card-monty
+    name: 52-card-monty
+    description: |
+      3-card monty was too easy for me so I made 52-card monty!
+      Can you show me the lady?
+      > author: bliutech
+
+      > binary built with `-std=c99 -fstack-protector`
+  - id: 53-card-monty
+    name: 53-card-monty
+    description: |
+      52-card monty wasn't toxic enough for me so I made it a little harder.
+      Note that the Dockerfile is different.
+      > author: kaiphait + enzocut
+
+      > binary built with `-fstack-protector -Wl,-z,relro,-z,now`
+  - id: aplet123
+    name: aplet123
+    description: |
+      bliutech: Can we get ApletGPT?
+      me: No we have ApletGPT at home.
+      ApletGPT at home:
+      > author: kaiphait
+
+      > binary built with `-std=c99 -no-pie -fstack-protector`
+  - id: flipma
+    name: flipma
+    description: |
+      what's flipma?
+      > author: enzocut
+
+      > binary built with `-g -std=c99 -no-pie -fno-stack-protector`
+  - id: heapsort
+    name: heapsort
+    description: |
+      what are data structures? i only know pwn
+      > author: enzocut
+  - id: pizza
+    name: pizza
+    description: |
+      yummy
+      > author: kaiphait
+  - id: ppplot
+    name: ppplot
+    description: |
+      i plan to plot to pwn this
+      > author: enzocut
+  - id: sus
+    name: sus
+    description: |
+      sus
+      > author: kaiphait
+
+      > binary built with `-std=c99 -no-pie`
+  - id: woogie-boogie
+    name: woogie-boogie
+    description: |
+      i haven't been watching too much jjk
+      > author: enzocut
