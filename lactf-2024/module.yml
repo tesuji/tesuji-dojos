@@ -13,6 +13,10 @@ challenges:
     description: |
       52-card monty wasn't toxic enough for me so I made it a little harder.
       Note that the Dockerfile is different.
+
+      Note: The original provided libc (redhat glibc 2.38) messes with gdb on
+      the dojo (error `could not read '.gnu_debugaltlink' section`). So it was
+      replaced with ubuntu glibc 2.39.
       > author: kaiphait + enzocut
 
       > binary built with `-fstack-protector -Wl,-z,relro,-z,now`
