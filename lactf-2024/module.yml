@@ -35,7 +35,8 @@ challenges:
       what's flipma?
       > author: enzocut
 
-      > binary built with `-g -std=c99 -no-pie -fno-stack-protector`
+      > binary built with `-g -std=c99 -no-pie -fno-stack-protector`.
+      > Need glic 2.31.
   - id: heapsort
     name: heapsort
     description: |
